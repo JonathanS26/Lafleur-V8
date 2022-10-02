@@ -1,0 +1,19 @@
+
+SECURITE
+
+1/ Protection contre l'injection
+requete préparée dans la fonction d'identification (fichier _bdGestionDonnees.lib.php)
+
+2/ Mot de passe crypte 
+- crypte lors de l'inscription
+voir fonction inscrire dans _bdGestionDonnees.lib.php
+- lors de la connexion, pour la recherche du mot de passe, cryptage 
+voire fonction connecter dans _bdGestionDonnees.lib.php 
+
+Autres améliorations :
+afficher des points dans le champ de saisie du mot de passe, pour l'inscription et pour la connexion
+empecher l'acces direct par l'URL aux scripts ADMIN ou CLIENT
+
+VOIR
+https://www.cnil.fr/fr/securite-securiser-les-sites-web
+https://www.ssi.gouv.fr/guide/recommandations-pour-la-securisation-des-sites-web/
